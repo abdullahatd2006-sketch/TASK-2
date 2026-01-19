@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    background: linear-gradient(#f2f2f2, #ffffff);
+     margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.store-buttons img {
+    width: 200px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 420px;
+}
+
+/* FEATURES */
+
+.feature, .feature-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%; 
+    background: #ffffff;
+}
+
+
+.feature-reverse {
+    flex-direction: row; 
+    background: #f7f7f7; 
+}
+
+
+.feature-text {
+    flex: 1;
+    padding-right: 50px; 
+}
+
+
+.feature-image {
+    flex: 1;
+    display: flex;
+   
+}
+
+.feature-image img {
+    max-width: 100%; 
+    height: auto;
+}
+.feature-text h2 {
+    letter-spacing: 3px;
+    margin:0 100px;
+}
+
+.feature-text p {
+    color: #666;
+    line-height: 1.6;
+    margin:0 100px;
+
+}
+/* FUTURE ICONS */
+.future-icons {
+    margin-top: 35px;
+   
+   
+}
+
+.future-icons img {
+    width: 100%;
+    max-width: 650px;
+    opacity: 0.85;
+  
+   
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 50px 0;
+    background: #ffffff;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer .contact span {
+    color: #3b82f6;
+    cursor: pointer;
+}
+/* FOOTER LOGO */
+.footer-logo {
+    margin-top: 25px;
+}
+
+.footer-logo img {
+    width: 90px;
+    opacity: 0.9;
+}
